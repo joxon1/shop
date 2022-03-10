@@ -25,7 +25,8 @@
   z-index: 5;
   padding: 1rem;
 }
-@media (min-height: 767px) {
+
+@media (min-width: 767px) {
   .cart {
     top: 5rem;
     bottom: unset;
