@@ -1,0 +1,11 @@
+cmd ga yozvorish kere (faqat 1 matta):
+
+	git rm -r --cached .
+	git add *
+
+nimadir ozgartirish qibogan bosen:
+
+	git add *
+	git commit -m " bla bla bla "
+	git push --all
+	npm run deploy
